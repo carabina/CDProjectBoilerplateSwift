@@ -1,0 +1,15 @@
+[submodule "Carthage/Checkouts/SlideMenuControllerSwift"]
+	path = Carthage/Checkouts/SlideMenuControllerSwift
+	url = https://github.com/dekatotoro/SlideMenuControllerSwift.git
+[submodule "Carthage/Checkouts/NVActivityIndicatorView"]
+	path = Carthage/Checkouts/NVActivityIndicatorView
+	url = https://github.com/ninjaprox/NVActivityIndicatorView.git
+[submodule "Carthage/Checkouts/Material"]
+	path = Carthage/Checkouts/Material
+	url = https://github.com/CosmicMind/Material.git
+[submodule "Carthage/Checkouts/SwiftyUserDefaults"]
+	path = Carthage/Checkouts/SwiftyUserDefaults
+	url = https://github.com/radex/SwiftyUserDefaults.git
+[submodule "Carthage/Checkouts/Toaster"]
+	path = Carthage/Checkouts/Toaster
+	url = https://github.com/devxoul/Toaster.git
