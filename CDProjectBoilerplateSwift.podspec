@@ -17,7 +17,7 @@ This framework contains Swift classes found to be used among several projects.
   s.source_files = 'Source/*.swift'
   s.resources = ['Resources/**/*']
   s.dependency 'Material', '~> 2.0'
-  s.dependency 'NVActivityIndicatorView', '~> 3.0'
+  s.dependency 'NVActivityIndicatorView', '3.6.1'
   s.dependency 'SlideMenuControllerSwift', '~> 3.0'
   s.dependency 'SwiftyUserDefaults', '~> 3.0'
   s.dependency 'Toaster', '~> 2.0'

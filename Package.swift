@@ -34,7 +34,7 @@ let package = Package(
         .Package(url: "https://github.com/dekatotoro/SlideMenuControllerSwift.git", versions: Version(3, 0, 0)..<Version(4, 0, 0)),
         .Package(url: "https://github.com/devxoul/Toaster.git", versions: Version(2, 0, 0)..<Version(3, 0, 0)),
         .Package(url: "https://github.com/devxoul/Toaster.git", versions: Version(2, 0, 0)..<Version(3, 0, 0)),
-        .Package(url: "https://github.com/ninjaprox/NVActivityIndicatorView.git", versions: Version(3, 0, 0)..<Version(4, 0, 0)),
+        .Package(url: "https://github.com/ninjaprox/NVActivityIndicatorView.git", versions: Version(3, 0, 0)..<Version(3, 6, 1)),
         .Package(url: "https://github.com/radex/SwiftyUserDefaults.git", versions: Version(3, 0, 0)..<Version(4, 0, 0))
     ],
     exclude: []

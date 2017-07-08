@@ -1,5 +1,5 @@
 github "CosmicMind/Material" ~> 2.0
 github "dekatotoro/SlideMenuControllerSwift" ~> 3.0
 github "devxoul/Toaster" ~> 2.0
-github "ninjaprox/NVActivityIndicatorView" ~> 3.0
+github "ninjaprox/NVActivityIndicatorView" "3.6.1"
 github "radex/SwiftyUserDefaults" ~> 3.0
