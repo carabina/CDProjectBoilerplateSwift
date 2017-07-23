@@ -88,14 +88,14 @@ open class CDMenuController: FABMenuController {
     // MARK: - FABMenuDelegate Methods
     
     open func fabMenuWillOpen(fabMenu: FABMenu) {
-        fabMenu.fabButton?.motion(.rotationAngle(45))
+        fabMenu.fabButton?.animate(.rotate(45))
     }
     
     open func fabMenuDidOpen(fabMenu: FABMenu) {
     }
     
     open func fabMenuWillClose(fabMenu: FABMenu) {
-        fabMenu.fabButton?.motion(.rotationAngle(0))
+        fabMenu.fabButton?.animate(.rotate(0))
     }
     
     open func fabMenuDidClose(fabMenu: FABMenu) {
