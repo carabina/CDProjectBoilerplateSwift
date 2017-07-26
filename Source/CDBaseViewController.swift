@@ -34,6 +34,7 @@ open class CDBaseViewController: UIViewController {
     
     public var loadingView = CDLoadingView.defaultLoadingView()
     public var loadingViewYOffset: CGFloat = 0
+    public var loadingViewHeightOffset: CGFloat = 0
     public var menuButton: IconButton!
     
     // MARK: - Lifecycle Methods
@@ -85,11 +86,11 @@ extension CDBaseViewController: CDLoadingPresenter {
                 // If user hasn't set a frame then conver entire screen including navigation bar
                 self.loadingView.frame = ncFrame
             } else {
-                self.loadingView.centerOffset = loadingViewYOffset
+                self.loadingView.centerOffset = loadingViewYOffset - self.loadingViewHeightOffset
                 self.loadingView.frame = CGRect(x: 0,
                                                 y: self.loadingViewYOffset,
                                                 width: ncFrame.size.width,
-                                                height: ncFrame.size.height - self.loadingViewYOffset)
+                                                height: ncFrame.size.height - self.loadingViewYOffset - self.loadingViewHeightOffset)
             }
             nc.view.insertSubview(self.loadingView, aboveSubview: nc.view)
         } else {
