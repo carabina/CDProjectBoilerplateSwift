@@ -28,7 +28,7 @@
 import Material
 import UIKit
 
-open class CDPageTabBarController: PageTabBarController {
+open class CDPageTabBarController: TabsController {
     // MARK: - Property/Variable Declaration
     
     public var color: UIColor?
@@ -55,11 +55,11 @@ open class CDPageTabBarController: PageTabBarController {
     
     private func preparePageTabBar() {
         if let color = self.color {
-            self.pageTabBar.lineColor = color
-            self.pageTabBar.dividerColor = color
+            self.tabBar.lineColor = color
+            self.tabBar.dividerColor = color
         } else {
-            self.pageTabBar.lineColor = .black
-            self.pageTabBar.dividerColor = .black
+            self.tabBar.lineColor = .black
+            self.tabBar.dividerColor = .black
         }
     }
 }
