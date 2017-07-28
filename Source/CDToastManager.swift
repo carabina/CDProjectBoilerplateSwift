@@ -33,13 +33,16 @@ public final class CDToastManager: NSObject {
     
     public static let shared = CDToastManager()
     
+    public var delay: TimeInterval = 0.0
+    public var duration: TimeInterval = 5.0
+    
     // MARK: - Public Methods
     
     public func displayToast(withText text: String) {
         // Remove any toast messages currently on the screen
         ToastCenter.default.cancelAll()
         // Display new toast message
-        let toast = Toast(text: text, delay: 0.0, duration: 5.0)
+        let toast = Toast(text: text, delay: self.delay, duration: self.duration)
         toast.show()
     }
 }

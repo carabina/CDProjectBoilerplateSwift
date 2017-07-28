@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5F49AAF61F0F4D3F000697B5 /* CDProjectBoilerplateSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F49AAF41F0F4D3F000697B5 /* CDProjectBoilerplateSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5F49AB621F0F515C000697B5 /* CDBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F49AB551F0F515C000697B5 /* CDBaseViewController.swift */; };
+		5F49AB621F0F515C000697B5 /* CDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F49AB551F0F515C000697B5 /* CDViewController.swift */; };
 		5F49AB631F0F515C000697B5 /* CDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F49AB561F0F515C000697B5 /* CDConstants.swift */; };
 		5F49AB641F0F515C000697B5 /* CDLoadingPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F49AB571F0F515C000697B5 /* CDLoadingPresentation.swift */; };
 		5F49AB651F0F515C000697B5 /* CDLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F49AB581F0F515C000697B5 /* CDLoadingView.swift */; };
@@ -17,7 +17,7 @@
 		5F49AB681F0F515C000697B5 /* CDMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F49AB5B1F0F515C000697B5 /* CDMenuTableViewCell.swift */; };
 		5F49AB691F0F515C000697B5 /* CDMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F49AB5C1F0F515C000697B5 /* CDMenuViewController.swift */; };
 		5F49AB6A1F0F515C000697B5 /* CDNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F49AB5D1F0F515C000697B5 /* CDNavigationController.swift */; };
-		5F49AB6B1F0F515C000697B5 /* CDPageTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F49AB5E1F0F515C000697B5 /* CDPageTabBarController.swift */; };
+		5F49AB6B1F0F515C000697B5 /* CDTabsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F49AB5E1F0F515C000697B5 /* CDTabsController.swift */; };
 		5F49AB6C1F0F515C000697B5 /* CDPlatform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F49AB5F1F0F515C000697B5 /* CDPlatform.swift */; };
 		5F49AB6D1F0F515C000697B5 /* CDToastManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F49AB601F0F515C000697B5 /* CDToastManager.swift */; };
 		5F49AB6E1F0F515C000697B5 /* UIImage+CDProjectBoilerplateSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F49AB611F0F515C000697B5 /* UIImage+CDProjectBoilerplateSwift.swift */; };
@@ -148,7 +148,7 @@
 		5F49AAE81F0F4CFF000697B5 /* CDProjectBoilerplateSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CDProjectBoilerplateSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F49AAF41F0F4D3F000697B5 /* CDProjectBoilerplateSwift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDProjectBoilerplateSwift.h; path = Source/CDProjectBoilerplateSwift.h; sourceTree = "<group>"; };
 		5F49AAF51F0F4D3F000697B5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Source/Info.plist; sourceTree = "<group>"; };
-		5F49AB551F0F515C000697B5 /* CDBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDBaseViewController.swift; sourceTree = "<group>"; };
+		5F49AB551F0F515C000697B5 /* CDViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDViewController.swift; sourceTree = "<group>"; };
 		5F49AB561F0F515C000697B5 /* CDConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDConstants.swift; sourceTree = "<group>"; };
 		5F49AB571F0F515C000697B5 /* CDLoadingPresentation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDLoadingPresentation.swift; sourceTree = "<group>"; };
 		5F49AB581F0F515C000697B5 /* CDLoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDLoadingView.swift; sourceTree = "<group>"; };
@@ -157,7 +157,7 @@
 		5F49AB5B1F0F515C000697B5 /* CDMenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDMenuTableViewCell.swift; sourceTree = "<group>"; };
 		5F49AB5C1F0F515C000697B5 /* CDMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDMenuViewController.swift; sourceTree = "<group>"; };
 		5F49AB5D1F0F515C000697B5 /* CDNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDNavigationController.swift; sourceTree = "<group>"; };
-		5F49AB5E1F0F515C000697B5 /* CDPageTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDPageTabBarController.swift; sourceTree = "<group>"; };
+		5F49AB5E1F0F515C000697B5 /* CDTabsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDTabsController.swift; sourceTree = "<group>"; };
 		5F49AB5F1F0F515C000697B5 /* CDPlatform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDPlatform.swift; sourceTree = "<group>"; };
 		5F49AB601F0F515C000697B5 /* CDToastManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDToastManager.swift; sourceTree = "<group>"; };
 		5F49AB611F0F515C000697B5 /* UIImage+CDProjectBoilerplateSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+CDProjectBoilerplateSwift.swift"; sourceTree = "<group>"; };
@@ -234,7 +234,7 @@
 		5F49AB6F1F0F5160000697B5 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				5F49AB551F0F515C000697B5 /* CDBaseViewController.swift */,
+				5F49AB551F0F515C000697B5 /* CDViewController.swift */,
 			);
 			name = Base;
 			sourceTree = "<group>";
@@ -320,7 +320,7 @@
 			children = (
 				5F49AB591F0F515C000697B5 /* CDMenuController.swift */,
 				5F49AB5D1F0F515C000697B5 /* CDNavigationController.swift */,
-				5F49AB5E1F0F515C000697B5 /* CDPageTabBarController.swift */,
+				5F49AB5E1F0F515C000697B5 /* CDTabsController.swift */,
 			);
 			name = Material;
 			sourceTree = "<group>";
@@ -606,14 +606,14 @@
 				5F49AB691F0F515C000697B5 /* CDMenuViewController.swift in Sources */,
 				5F49AB681F0F515C000697B5 /* CDMenuTableViewCell.swift in Sources */,
 				5F49AB641F0F515C000697B5 /* CDLoadingPresentation.swift in Sources */,
-				5F49AB6B1F0F515C000697B5 /* CDPageTabBarController.swift in Sources */,
+				5F49AB6B1F0F515C000697B5 /* CDTabsController.swift in Sources */,
 				5F49AB661F0F515C000697B5 /* CDMenuController.swift in Sources */,
 				5F49AB671F0F515C000697B5 /* CDMenuItem.swift in Sources */,
 				5F49AB631F0F515C000697B5 /* CDConstants.swift in Sources */,
 				5F49AB6E1F0F515C000697B5 /* UIImage+CDProjectBoilerplateSwift.swift in Sources */,
 				5F49AB651F0F515C000697B5 /* CDLoadingView.swift in Sources */,
 				5F49AB6D1F0F515C000697B5 /* CDToastManager.swift in Sources */,
-				5F49AB621F0F515C000697B5 /* CDBaseViewController.swift in Sources */,
+				5F49AB621F0F515C000697B5 /* CDViewController.swift in Sources */,
 				5F49AB6A1F0F515C000697B5 /* CDNavigationController.swift in Sources */,
 				5F49AB6C1F0F515C000697B5 /* CDPlatform.swift in Sources */,
 			);

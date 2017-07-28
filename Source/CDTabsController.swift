@@ -28,7 +28,7 @@
 import Material
 import UIKit
 
-open class CDPageTabBarController: TabsController {
+open class CDTabsController: TabsController {
     // MARK: - Property/Variable Declaration
     
     public var color: UIColor?

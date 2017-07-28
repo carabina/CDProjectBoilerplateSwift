@@ -29,7 +29,7 @@ import Material
 import SlideMenuControllerSwift
 import UIKit
 
-open class CDBaseViewController: UIViewController {
+open class CDViewController: UIViewController {
     // MARK: - Property/Variable Declaration
     
     public var loadingView = CDLoadingView.defaultLoadingView()
@@ -70,7 +70,7 @@ open class CDBaseViewController: UIViewController {
 
 // MARK: - CDLoadingPresenter Methods
 
-extension CDBaseViewController: CDLoadingPresenter {
+extension CDViewController: CDLoadingPresenter {
     
     open func showLoadingIndicator(animated: Bool) {
         // Don't allow user interaction on view when loading view is present
@@ -86,7 +86,7 @@ extension CDBaseViewController: CDLoadingPresenter {
                 // If user hasn't set a frame then conver entire screen including navigation bar
                 self.loadingView.frame = ncFrame
             } else {
-                self.loadingView.centerOffset = loadingViewYOffset - self.loadingViewHeightOffset
+                self.loadingView.centerOffset = self.loadingViewYOffset
                 self.loadingView.frame = CGRect(x: 0,
                                                 y: self.loadingViewYOffset,
                                                 width: ncFrame.size.width,
